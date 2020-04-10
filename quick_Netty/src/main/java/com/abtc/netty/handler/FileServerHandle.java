@@ -30,6 +30,12 @@ public class FileServerHandle extends SimpleChannelInboundHandler<FullHttpReques
             responseExportFile(ctx, "D://idea/spc/model.txt", "model.txt");
         }
 
+
+
+
+
+
+        //用于测试的注解
         //上传接口处理
         if (request.uri().equals("/upLoadFile")) {
             MultipartRequest MultipartBody = getMultipartBody(request);
