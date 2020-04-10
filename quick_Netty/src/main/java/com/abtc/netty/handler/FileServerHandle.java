@@ -34,7 +34,7 @@ public class FileServerHandle extends SimpleChannelInboundHandler<FullHttpReques
 
 
 
-
+        //在github上添加的内容
         //用于测试的注解
         //上传接口处理
         if (request.uri().equals("/upLoadFile")) {
